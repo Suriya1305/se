@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="CopyToImageDialog">
+		<item value="false" key="CopyToImageDialog.exportToHTML"/>
+		<item value="jpeg" key="CopyToImageDialog.imageFormat"/>
+		<item value="D:\ME_RUK\university\year3\22561\523332\project\doc\รูป" key="CopyToImageDialog.folder"/>
+		<item value="false" key="CopyToImageDialog.overwriteExisting"/>
+	</section>
+</section>
