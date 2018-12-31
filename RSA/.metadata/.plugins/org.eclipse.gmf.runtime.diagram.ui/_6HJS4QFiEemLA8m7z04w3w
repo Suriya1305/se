@@ -1,5 +1,5 @@
-#Fri Dec 21 19:03:24 ICT 2018
-zoom=1.0
+#Tue Jan 01 00:15:51 ICT 2019
+zoom=0.75
 diagram.appliedtheme=Rational Rose Classic
 print.margin.right=0.5
 rulergrid.rulerunit=0
@@ -16,4 +16,4 @@ rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
 print.usePortrait=true
-viewport.y=12
+viewport.y=177
