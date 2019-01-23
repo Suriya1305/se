@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_a8m-gRy2EemhtsmpxBMkrQ" type="Communication" name="CommunicationDiagram1" measurementUnit="Himetric">
+  <eAnnotations xmi:id="_gdbBEB86EemSN_LeE0d8OQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="res:DiagramHolder" href="Blank%20Design%20Package.emx#_gcFkUB86EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/%3CDiagramHolder%3E?"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_a8m-ghy2EemhtsmpxBMkrQ" type="CommunicationFrame" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" roundedBendpointsRadius="3" showStereotype="Label">
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_a8m-gxy2EemhtsmpxBMkrQ" type="CommunicationCompartment">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_JML0YBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_JMMbcBy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_JMPewBy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_JMQF0By3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_JLqP8By3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/prefixEntity?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JML0YRy3EemhtsmpxBMkrQ" x="21794" y="6261"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_WSSH8By3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_WSSvABy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_WSSvARy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_WSSvAhy3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_WRVswBy3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/sexEntity?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WSSH8Ry3EemhtsmpxBMkrQ" x="19223" y="11333"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_jrwDcBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_jrxRkBy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_jrxRkRy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_jrxRkhy3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_jrXB4By3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/contactEntity?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jrwDcRy3EemhtsmpxBMkrQ" x="5909" y="12601"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_pI_vQBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_pJAWUBy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_pJAWURy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_pJA9YBy3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_pIn70By3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/profilesEntity?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pI_vQRy3EemhtsmpxBMkrQ" x="-2624" y="10065"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_yIs1MBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_yItcQBy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_yItcQRy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_yItcQhy3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_yIXeABy3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/registerController?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIs1MRy3EemhtsmpxBMkrQ" x="6543" y="6261"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_5wVU8By3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_5wVU8hy3EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_5wV8ABy3EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_5wV8ARy3EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_5v-voBy3EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/registerUI?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5wVU8Ry3EemhtsmpxBMkrQ" x="15497" y="1189"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_I9x6EBy5EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_I9yhIBy5EemhtsmpxBMkrQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_I9yhIRy5EemhtsmpxBMkrQ" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_I9zIMBy5EemhtsmpxBMkrQ" type="Name"/>
+        <element xmi:type="uml:Lifeline" href="Blank%20Design%20Package.emx#_I9ZfkBy5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/normal%20person?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I9x6ERy5EemhtsmpxBMkrQ" x="-1912" y="1189"/>
+      </children>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_a8m-hBy2EemhtsmpxBMkrQ" type="Name"/>
+    <element xmi:type="uml:Interaction" href="Blank%20Design%20Package.emx#_a8Mu0By2EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a8m-hRy2EemhtsmpxBMkrQ" x="793" y="793" width="30879" height="12831"/>
+  </children>
+  <element xmi:type="uml:Interaction" href="Blank%20Design%20Package.emx#_a8Mu0By2EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1?"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_kTJvwBy5EemhtsmpxBMkrQ" source="_I9x6EBy5EemhtsmpxBMkrQ" target="_5wVU8By3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IsJ-wBzeEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_IsLz8BzeEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_IoPvIBzeEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/open?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IsJ-wRzeEemg18nae3-Dug" x="-3955" y="-560"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TXYyYBzeEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_TXYyYhzeEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_TW8GcBzeEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/fill%20in%20email?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TXYyYRzeEemg18nae3-Dug" x="-3901" y="391"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_afA8YBzeEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_afBjcBzeEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_aeYqQBzeEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/fill%20in%20password?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_afA8YRzeEemg18nae3-Dug" x="-4204" y="708"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HKsEcB8tEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_HKsrgB8tEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_HKZJgB8tEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/displayAll%20prefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HKsEcR8tEemSN_LeE0d8OQ" x="6006" y="-877"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_O4e2kB8tEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_O4fdoB8tEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_O4RbMB8tEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/select%20prefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_O4e2kR8tEemSN_LeE0d8OQ" x="-4099" y="-877"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_bil8QB8uEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_bimjUB8uEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_bibkMB8uEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/fill%20in%20name?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_bil8QR8uEemSN_LeE0d8OQ" x="-4416" y="-1194"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Ts28B87EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_1TteAB87EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_1Tie4B87EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/displayAll%20sex?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Ts28R87EemSN_LeE0d8OQ" x="6535" y="-1406"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_6lMlwB87EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_6lNM0B87EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_6lC0wB87EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/fill%20in%20telePhoneNumber?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_6lMlwR87EemSN_LeE0d8OQ" x="-624" y="-560"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_GS9NYB88EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_GS90cB88EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_GSt80B88EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/fill%20in%20contact?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_GS9NYR88EemSN_LeE0d8OQ" x="-163" y="-1194"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_kTEQMBy5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kTJvwRy5EemhtsmpxBMkrQ" points="[25, 0, -461, 15]$[487, -25, 1, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUZs8By5EemhtsmpxBMkrQ" id="(0.9196387570794429,0.3129548762736536)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kUZs8Ry5EemhtsmpxBMkrQ" id="(0.02465245597775718,0.31149927219796214)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_lcKmQBy5EemhtsmpxBMkrQ" source="_5wVU8By3EemhtsmpxBMkrQ" target="_yIs1MBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ayfAEBzgEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_ayfnIBzgEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_axorgBzgEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/getAll%20prefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ayfAERzgEemg18nae3-Dug" x="553" y="2783"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_80fFoB8sEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_80fssB8sEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_80JHYB8sEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/returnAll%20prefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_80fFoR8sEemSN_LeE0d8OQ" x="4520" y="2862"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_PDxOoB8vEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_PDycwB8vEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_PC6TAB8vEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/getAll%20sex?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_PDx1sB8vEemSN_LeE0d8OQ" x="626" y="1670"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_vLb4MB87EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_vLcfQB87EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_vLSHMB87EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/returnAll%20sex?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_vLb4MR87EemSN_LeE0d8OQ" x="5100" y="2107"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oKkBAB88EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_oKkoEB88EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_oKZB4B88EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20email?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_oKkBAR88EemSN_LeE0d8OQ" x="-4629" y="-912"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1iP-YB89EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_1iP-Yh89EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_1guUYB89EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20password?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1iP-YR89EemSN_LeE0d8OQ" x="-5767" y="-2725"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_V4YYMB8-EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_V4Y_QB8-EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_V23VQB8-EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20prefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_V4YYMR8-EemSN_LeE0d8OQ" x="-1700" y="-233"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nEEoIB8-EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_nEFPMB8-EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_nCessB8-EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20name?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nEEoIR8-EemSN_LeE0d8OQ" x="-3014" y="-1781"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uWklYB8-EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_uWlMcB8-EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_uU2HEB8-EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20sex?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uWklYR8-EemSN_LeE0d8OQ" x="-280" y="-478"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0CiCoB8-EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_0CiCoh8-EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_0ArogB8-EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20telePhoneNumber?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0CiCoR8-EemSN_LeE0d8OQ" x="1067" y="-1139"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H7M2MB8_EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_H7M2Mh8_EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_H5ipUB8_EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/sent%20contact?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H7M2MR8_EemSN_LeE0d8OQ" x="73" y="-1005"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_lcIKABy5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lcKmQRy5EemhtsmpxBMkrQ" points="[-16, 8, 293, -135]$[-308, 140, 1, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lcO3sBy5EemhtsmpxBMkrQ" id="(0.44151992585727523,0.7743813682678311)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lcO3sRy5EemhtsmpxBMkrQ" id="(0.5185592521308771,0.08879184861717612)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_oUzAQBy5EemhtsmpxBMkrQ" source="_yIs1MBy3EemhtsmpxBMkrQ" target="_pI_vQBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LrGdIB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_LrGdIh9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_Lq5BwB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/new%20profileEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LrGdIR9EEemmjLUiC3U3dg" x="1740" y="6910"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TYLdkB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_TYMEoB9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_TX_3YB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20email?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TYLdkR9EEemmjLUiC3U3dg" x="4204" y="2111"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZvFVQB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZvF8UB9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_Zu5IAB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20password?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZvFVQR9EEemmjLUiC3U3dg" x="1873" y="4878"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_eQUEwB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_eQVS4B9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_eQGCUB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20prefixEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_eQUEwR9EEemmjLUiC3U3dg" x="3314" y="4493"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_imKDoB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_imKDoh9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_il9PUB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20name?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_imKDoR9EEemmjLUiC3U3dg" x="3519" y="3541"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lqc7EB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_lqdiIB9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_lqR78B9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20sexEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lqc7ER9EEemmjLUiC3U3dg" x="4756" y="1667"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_swZqEB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_swaRIB9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_swKZgB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/set%20contactEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_swZqER9EEemmjLUiC3U3dg" x="2088" y="6024"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0NREQB9EEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_0NRrUB9EEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_0NGFIB9EEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/save%20profilesEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0NREQR9EEemmjLUiC3U3dg" x="2893" y="2556"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_oUv88By5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oUzAQRy5EemhtsmpxBMkrQ" points="[-17, 2, 335, -38]$[-351, 40, 1, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oU2qoBy5EemhtsmpxBMkrQ" id="(0.0458797898244265,0.16593886462882096)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oU2qoRy5EemhtsmpxBMkrQ" id="(0.22858487605898964,0.01455604075691412)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_puf-IBy5EemhtsmpxBMkrQ" source="_yIs1MBy3EemhtsmpxBMkrQ" target="_JML0YBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ATRg4BzhEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_ATSH8BzhEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_ASh6ABzhEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/getAll%20prefixEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ATRg4RzhEemg18nae3-Dug" x="2988" y="1544"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HYpBEBzhEemg18nae3-Dug" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_HYpoIBzhEemg18nae3-Dug" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_HYJR0BzhEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/returnAll%20prefixEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HYpBERzhEemg18nae3-Dug" x="3421" y="-1208"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_crhqgB8_EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_criRkB8_EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_cpvh0B8_EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/findpreEntityByprefix?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_crhqgR8_EemSN_LeE0d8OQ" x="-3034" y="593"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_paR1EB8_EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_paScIB8_EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_pYHR4B8_EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/return%20prefixEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_paR1ER8_EemSN_LeE0d8OQ" x="1496" y="-675"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_pucTwBy5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_puf-IRy5EemhtsmpxBMkrQ" points="[30, 9, -272, -72]$[304, 80, 2, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pujBcBy5EemhtsmpxBMkrQ" id="(0.9173394848135332,0.32023289665211063)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_pujBcRy5EemhtsmpxBMkrQ" id="(0.8557741659538066,0.017467248908296942)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qtTIsBy5EemhtsmpxBMkrQ" source="_yIs1MBy3EemhtsmpxBMkrQ" target="_jrwDcBy3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_hT2EAB9AEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_hT2rEB9AEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_hRabEB9AEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/new%20contactEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_hT2EAR9AEemSN_LeE0d8OQ" x="-798" y="-570"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_1Aqz8B9AEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_1ArbAB9AEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_0-lJQB9AEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/set%20telePhoneNumber?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_1Aqz8R9AEemSN_LeE0d8OQ" x="680" y="-286"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hj3CUB9BEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Hj3pYB9BEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_HhuUUB9BEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/set%20address?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hj3CUR9BEemSN_LeE0d8OQ" x="-2021" y="-195"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UZppAB9BEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_UZqQEB9BEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_UW6eEB9BEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/save%20contactEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UZppAR9BEemSN_LeE0d8OQ" x="945" y="-3488"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_FwgY4B9CEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_Fwg_8B9CEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_FthWUB9CEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/findContactEntityByTelePhoneNumber?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_FwgY4R9CEemSN_LeE0d8OQ" x="2153" y="-3942"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rz4M4B9DEemmjLUiC3U3dg" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_r0f38B9DEemmjLUiC3U3dg" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_ruDRsB9DEemmjLUiC3U3dg?Blank%20Design%20Package/register/Interaction1/return%20COntactEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_rz4M4R9DEemmjLUiC3U3dg" x="2698" y="4731"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_qtQscBy5EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qtTIsRy5EemhtsmpxBMkrQ" points="[-26, 26, 193, -178]$[-66, 201, 153, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qtWzEBy5EemhtsmpxBMkrQ" id="(0.4799436114315007,0.2052401746724891)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_jxCPcBzgEemg18nae3-Dug" source="_yIs1MBy3EemhtsmpxBMkrQ" target="_WSSH8By3EemhtsmpxBMkrQ" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_f5fYIB87EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_f5f_MB87EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_f4_B0B87EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/getAll%20sexEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_f5fYIR87EemSN_LeE0d8OQ" x="521" y="-1275"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_pb9M4B87EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pb9z8B87EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_pb0C8B87EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/returnAll%20sexEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_pb9M4R87EemSN_LeE0d8OQ" x="932" y="-751"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_2W1LEB8_EemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_2W1LEh8_EemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_2VEQgB8_EemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/findsexEntityBySex?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_2W1LER8_EemSN_LeE0d8OQ" x="3543" y="-728"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RFlssB9AEemSN_LeE0d8OQ" type="COMM_MESSAGE">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_RFmTwB9AEemSN_LeE0d8OQ" type="Name"/>
+      <element xmi:type="uml:Message" href="Blank%20Design%20Package.emx#_RDjsYB9AEemSN_LeE0d8OQ?Blank%20Design%20Package/register/Interaction1/returnSexEntity?"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RFlssR9AEemSN_LeE0d8OQ" x="196" y="1902"/>
+    </children>
+    <element xmi:type="uml:Connector" href="Blank%20Design%20Package.emx#_jwuGYBzgEemg18nae3-Dug?Blank%20Design%20Package/register/Interaction1/%3CConnector%3E?"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jxCPcRzgEemg18nae3-Dug" points="[-7, 13, 48, -84]$[-54, 95, 1, -2]"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jxSHEBzgEemg18nae3-Dug" id="(0.6997742663656885,0.10043668122270742)"/>
+  </edges>
+</umlnotation:UMLDiagram>
