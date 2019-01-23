@@ -4731,3 +4731,94 @@ java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org
 	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-01-24 02:57:41.588
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers.snap (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 2 1 2019-01-24 02:59:22.368
+!MESSAGE NLS missing message: MenuManager_CreateAction__ServiceProvider__Stereotype_name in: com.ibm.xtools.modeling.enterprise.services.internal.l10n.Messages
+
+!ENTRY org.eclipse.osgi 2 1 2019-01-24 02:59:22.398
+!MESSAGE NLS unused message: MenuManager_CreateAction__MessageDriven__Activity_name in: com.ibm.xtools.transform.uml2.ejb3.ui.internal.l10n.EJB_3_0_TransformationMessages
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:30.802
+!MESSAGE LUM license expired for productID 49: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:30.803
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:30.822
+!MESSAGE Feature com.ibm.rsa.sipmtk.feature, version 7.5.4.qualifier, failed license check
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:30.867
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:30.867
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:30.868
+!MESSAGE Feature com.ibm.xtools.transform.struts.profile.feature, version 1.0.0.qualifier, failed license check
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:31.338
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:31.338
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:31.339
+!MESSAGE Feature com.ibm.xtools.transform.uml2.soa.feature, version 1.0.0, failed license check
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.076
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.076
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:32.077
+!MESSAGE Feature com.ibm.xtools.transform.uml2.soa.feature, version 1.0.0, failed license check
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.104
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.105
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.114
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:32.114
+!MESSAGE LicenseCheck returned FALSE!
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:32.114
+!MESSAGE Feature com.ibm.xtools.transform.uml2.soa.feature, version 1.0.0, failed license check
+
+!ENTRY com.ibm.xtools.emf.core 4 0 2019-01-24 02:59:32.115
+!MESSAGE Feature com.ibm.xtools.updm, version 7.3.0, failed license check
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-24 02:59:51.527
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.core.resources 4 568 2019-01-24 03:03:10.830
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers.snap (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
