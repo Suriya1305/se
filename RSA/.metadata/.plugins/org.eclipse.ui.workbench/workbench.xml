@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="114" version="2.0">
+<workbench progressCount="111" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="100" y="0">
 <fastViewData fastViewLocation="1024">
@@ -26,7 +26,9 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="30"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="1045" y="22"/>
+<coolItem id="TimingDiagramEditorWithHeader" itemType="typeToolBarContribution" x="1164" y="22"/>
+<coolItem id="SequenceDiagramEditorWithHeader" itemType="typeToolBarContribution" x="1164" y="22"/>
+<coolItem id="ModelerDiagramEditor" itemType="typeToolBarContribution" x="1164" y="22"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.support.feedback.errorreports.ui.crashReportToolbar" itemType="typeToolBarContribution" x="129" y="22"/>
 <coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -39,6 +41,8 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -64,7 +68,7 @@
 <view id="com.ibm.xtools.mde.guidance" partName="MDD Guidance"/>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" partName="Report Explorer"/>
 </views>
-<perspectives activePart="ModelerDiagramEditor" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
+<perspectives activePart="org.eclipse.ui.navigator.ProjectExplorer" activePerspective="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.xtools.rmp.ui.internal.perspective.ModelingPerspective" id="com.ibm.xtools.modeler.internal.ui.perspectives.ModelingPerspective" label="Modeling"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
@@ -126,12 +130,17 @@
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.internal.introview"/>
 <fastViews>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" ratio="0.25"/>
 <view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
 </fastViews>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@13601360" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="0">
+<fastViews>
+<view id="org.eclipse.ui.internal.introview" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="projectExplorerArea">
@@ -143,13 +152,11 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@13601360" ratio="0.75" ratioLeft="750" ratioRight="250" relationship="2" relative="projectExplorerArea">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.26" ratioLeft="260" ratioRight="740" relationship="2" relative="projectExplorerArea"/>
