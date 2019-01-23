@@ -4822,3 +4822,31 @@ java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org
 	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-01-24 03:17:05.810
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers.snap (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.core.resources 4 568 2019-01-24 03:54:31.895
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers.snap (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeChunkyOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSnap(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
