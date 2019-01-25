@@ -4864,3 +4864,277 @@ java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org
 	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
 	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(Unknown Source)
 	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-01-24 04:36:33.743
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-01-24 04:36:33.744
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-01-24 04:36:33.744
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers (The system cannot find the path specified.)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.save(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+!SESSION 2019-01-25 19:04:43.917 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.ui 4 4 2019-01-25 19:05:08.627
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-01-25 19:05:33.779
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-01-25 19:05:33.779
+!MESSAGE Unable to restore perspective: Workspace - Modeling.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-01-25 19:05:33.779
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-01-25 19:05:33.779
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-01-25 19:05:33.779
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-01-25 19:05:33.779
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-01-25 19:05:33.780
+!MESSAGE OK
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:36.432
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:36.449
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:36.530
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:36.617
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:36.641
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:37.118
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:37.506
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:05:37.670
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-01-25 19:05:39.482
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:06:02.985
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2019-01-25 19:09:07.161
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.xtools.modeler.ui.internal.ModelerPlugin.getActivePage(Unknown Source)
+	at com.ibm.xtools.modeler.ui.internal.ui.resources.CloseResourcesCommand.closeEditors(Unknown Source)
+	at com.ibm.xtools.modeler.ui.internal.ui.resources.CloseResourcesCommand.closeResources(Unknown Source)
+	at com.ibm.xtools.modeler.ui.UMLModeler.closeLogicalResource(Unknown Source)
+	at com.ibm.xtools.modeler.ui.UMLModeler.closeModelResource(Unknown Source)
+	at com.ibm.xtools.modeler.ui.editors.internal.ModelEditor.dispose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(Unknown Source)
+	at org.eclipse.ui.internal.EditorReference.doDisposePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.handleDeferredEvents(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.deferUpdates(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.closeEditors(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.closeAllEditors(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow$5.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(Unknown Source)
+	at org.eclipse.jface.window.WindowManager.close(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$18.run(Unknown Source)
+	at org.eclipse.core.runtime.SafeRunner.run(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.busyClose(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$15(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$25.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.close(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.close(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow$5.run(Unknown Source)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(Unknown Source)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(Unknown Source)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Unknown Source)
+	at org.eclipse.jface.window.Window$3.shellClosed(Unknown Source)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Control.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Shell.windowProc(Unknown Source)
+	at org.eclipse.swt.widgets.Display.windowProc(Unknown Source)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.runUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.access$4(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$7.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-01-25 19:09:26.156
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-01-25 19:09:26.157
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-01-25 19:09:26.157
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.save(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+!SESSION 2019-01-25 19:10:07.011 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.080
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.228
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.275
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.332
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.425
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.750
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-01-25 19:10:44.816
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-01-25 19:10:45.200
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-01-25 19:11:09.529
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-01-25 19:11:09.531
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-01-25 19:11:09.531
+!MESSAGE Could not write metadata for '/Activity Diagram'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\Activity Diagram\.markers (The system cannot find the path specified.)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.save(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-01-25 19:11:14.260
+!MESSAGE An internal error occurred during: "Updating target platforms".
+!STACK 0
+java.lang.IllegalStateException: BundleContext is no longer valid
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.checkValid(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.getServiceReference(Unknown Source)
+	at org.eclipse.pde.internal.core.PDECore.acquireService(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetDefinitionPersistenceHelper.getTargetPlatformService(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetPersistence36Helper.deserializeBundleContainer(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetPersistence36Helper.initFromDoc(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetDefinitionPersistenceHelper.initFromXML(Unknown Source)
+	at org.eclipse.pde.internal.core.target.TargetDefinition.setContents(Unknown Source)
+	at org.eclipse.pde.internal.core.target.AbstractTargetHandle.getTargetDefinition(Unknown Source)
+	at com.ibm.etools.aries.internal.websphere.core.util.PDEPlatformTargetHelper.updatePDEPlatformTarget(Unknown Source)
+	at com.ibm.etools.aries.internal.websphere.core.nolazyload.PDETargetUpdater$PDETargetUpdateJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
