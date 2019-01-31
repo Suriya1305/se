@@ -7,7 +7,7 @@
     <eAnnotations xmi:id="_8Pex8QSPEemYlrkzCHEp8A" source="uml2.diagrams" references="_8Pex8gSPEemYlrkzCHEp8A">
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_8Pex8gSPEemYlrkzCHEp8A" type="Class" name="Main"/>
       <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_A_C4YASQEemYlrkzCHEp8A" type="Usecase" name="sprint1">
-        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_EH0nMASQEemYlrkzCHEp8A" element="_EFRCcASQEemYlrkzCHEp8A" fontName="Segoe UI" fontHeight="8" fillColor="15912618" transparency="0" lineColor="15912618" lineWidth="1" showStereotype="Label">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_EH0nMASQEemYlrkzCHEp8A" element="_EFRCcASQEemYlrkzCHEp8A" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_EIU9gASQEemYlrkzCHEp8A" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_EIU9gQSQEemYlrkzCHEp8A" width="1455" height="2381"/>
           </children>
@@ -16,7 +16,7 @@
           <children xmi:type="notation:BasicDecorationNode" xmi:id="_EIWLoQSQEemYlrkzCHEp8A" type="Parent"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EH0nMQSQEemYlrkzCHEp8A" x="1268" y="2219"/>
         </children>
-        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_IZyysASQEemYlrkzCHEp8A" element="_IZrd8ASQEemYlrkzCHEp8A" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_IZyysASQEemYlrkzCHEp8A" element="_IZrd8ASQEemYlrkzCHEp8A" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
           <children xmi:type="notation:DecorationNode" xmi:id="_IZzZwASQEemYlrkzCHEp8A" type="ImageCompartment">
             <layoutConstraint xmi:type="notation:Size" xmi:id="_IZzZwQSQEemYlrkzCHEp8A" width="2216" height="1322"/>
           </children>
@@ -27,7 +27,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IZyysQSQEemYlrkzCHEp8A" x="4542" y="2451"/>
         </children>
         <element xsi:nil="true"/>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_1r6doASXEemYlrkzCHEp8A" element="_1reYwASXEemYlrkzCHEp8A" source="_EH0nMASQEemYlrkzCHEp8A" target="_IZyysASQEemYlrkzCHEp8A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_1r6doASXEemYlrkzCHEp8A" element="_1reYwASXEemYlrkzCHEp8A" source="_EH0nMASQEemYlrkzCHEp8A" target="_IZyysASQEemYlrkzCHEp8A" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_1sDnkASXEemYlrkzCHEp8A" type="NameLabel">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_1sEOoASXEemYlrkzCHEp8A" type="Stereotype"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_1sEOoQSXEemYlrkzCHEp8A" type="Name"/>
@@ -167,7 +167,7 @@
         </contents>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_EFRCcASQEemYlrkzCHEp8A" name="ผู้ใช้งานระบบ">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_EFRCcASQEemYlrkzCHEp8A" name="บุคคลทั่วไป">
       <ownedComment xmi:id="_AFayoASZEemYlrkzCHEp8A" annotatedElement="_EFRCcASQEemYlrkzCHEp8A">
         <body>&lt;p>&lt;span style=&quot;font-family:TH Sarabun New;&quot;>&lt;/span>&lt;/p></body>
       </ownedComment>

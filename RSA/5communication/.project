@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>5communication</name>
+	<comment></comment>
+	<projects>
+		<project>34systemusecase</project>
+		<project>Activity Diagram</project>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+</projectDescription>

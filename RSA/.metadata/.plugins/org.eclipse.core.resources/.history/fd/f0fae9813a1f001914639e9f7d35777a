@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Vs_kYB86EemSN_LeE0d8OQ" type="Class" name="classdiagram.dnx">
+  <children xmi:type="notation:Shape" xmi:id="_WLOYgB86EemSN_LeE0d8OQ" type="Note" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1">
+    <eAnnotations xmi:id="_WLdpEB86EemSN_LeE0d8OQ" source="DiagramLink"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_WLW7YB86EemSN_LeE0d8OQ" type="DiagramName"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_WLXicB86EemSN_LeE0d8OQ" type="Description"/>
+    <styles xmi:type="notation:TextStyle" xmi:id="_WLOYgR86EemSN_LeE0d8OQ"/>
+    <styles xmi:type="notation:LineTypeStyle" xmi:id="_WLOYgh86EemSN_LeE0d8OQ"/>
+    <element xmi:type="umlnotation:UMLDiagram" href="platform:/resource/5commu/Blank%20Design%20Package.emx#_a8m-gRy2EemhtsmpxBMkrQ?Blank%20Design%20Package/register/Interaction1/CommunicationDiagram1?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WLOYgx86EemSN_LeE0d8OQ" x="2645" y="2645"/>
+  </children>
+  <element xsi:nil="true"/>
+</umlnotation:UMLDiagram>
