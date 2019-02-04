@@ -1,12 +1,11 @@
-#Tue Feb 05 03:22:56 ICT 2019
+#Tue Feb 05 03:11:36 ICT 2019
 rulergrid.gridlinestyle=6
 print.margin.bottom=0.5
 print.margin.top=0.5
 print.page.height=11.0
 print.usePortrait=true
-viewport.y=17
-print.margin.left=0.5
 rulergrid.gridlinecolor=12632256
+print.margin.left=0.5
 rulergrid.gridspacing=0.125
 rulergrid.rulerunit=0
 print.margin.right=0.5
