@@ -1,6 +1,5 @@
 #Sun Feb 10 09:04:44 ICT 2019
-viewport.x=140
-zoom=0.75
+zoom=1.0
 diagram.appliedtheme=Rational Rose Classic
 print.margin.right=0.5
 rulergrid.rulerunit=0
@@ -17,4 +16,4 @@ rulergrid.gridlinestyle=6
 rulergrid.gridlevel=true
 print.margin.top=0.5
 print.usePortrait=true
-viewport.y=146
+viewport.y=17

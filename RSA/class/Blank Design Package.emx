@@ -573,6 +573,18 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_s6q4AR9SEemmjLUiC3U3dg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_s6q4AB9SEemmjLUiC3U3dg" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_7Ry60CzVEemZn6iVbAmS6A" name="reviewFoodContoller" visibility="private">
+        <type xmi:type="uml:Class" href="platform:/resource/commu/Blank%20Design%20Package.emx#_H9wskCzVEemZn6iVbAmS6A?Blank%20Design%20Package/ReviewFoodContoller?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7R1XECzVEemZn6iVbAmS6A" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7R0wACzVEemZn6iVbAmS6A" value="1"/>
+        <association href="platform:/resource/commu/Blank%20Design%20Package.emx#_7Rq_ACzVEemZn6iVbAmS6A?Blank%20Design%20Package/%3CAssociation%3E?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_BW8UICzWEemZn6iVbAmS6A" name="foodForReviewEntity" visibility="private">
+        <type xmi:type="uml:Class" href="platform:/resource/commu/Blank%20Design%20Package.emx#_mmlh8CzTEemZn6iVbAmS6A?Blank%20Design%20Package/FoodForReviewEntity?"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BW-JUCzWEemZn6iVbAmS6A" value="*"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BW9iQCzWEemZn6iVbAmS6A"/>
+        <association href="platform:/resource/commu/Blank%20Design%20Package.emx#_BWyjICzWEemZn6iVbAmS6A?Blank%20Design%20Package/%3CAssociation%3E?"/>
+      </ownedAttribute>
       <ownedOperation xmi:id="_lh73QB9PEemmjLUiC3U3dg" name="setEmail"/>
       <ownedOperation xmi:id="_puwdAB9PEemmjLUiC3U3dg" name="setName"/>
       <ownedOperation xmi:id="_q5JMgB9PEemmjLUiC3U3dg" name="setPassword"/>
