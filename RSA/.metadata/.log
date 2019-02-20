@@ -5397,3 +5397,26 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 
 !ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 02:14:10.031
 !MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:55:48.164
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:55:49.270
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-02-20 20:56:00.520
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 4 1 2019-02-20 20:56:00.520
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 4 568 2019-02-20 20:56:00.520
+!MESSAGE Could not write metadata for '/34systemusecase'.
+!STACK 0
+java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org.eclipse.core.resources\.projects\34systemusecase\.markers (The system cannot find the path specified.)
+	at org.eclipse.core.internal.localstore.SafeFileOutputStream.<init>(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.visitAndSave(Unknown Source)
+	at org.eclipse.core.internal.resources.SaveManager.save(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.save(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
