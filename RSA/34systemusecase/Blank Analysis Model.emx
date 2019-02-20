@@ -26,6 +26,16 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_IaTwEASQEemYlrkzCHEp8A" visible="false" type="Extension_Points"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IZyysQSQEemYlrkzCHEp8A" x="4542" y="2451"/>
         </children>
+        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_6Mg7ADCJEem1ga-CaPpYfQ" element="_6IuAIDCJEem1ga-CaPpYfQ" fontName="Arial" fontHeight="10" fillColor="13434879" transparency="0" lineColor="3342489" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_6NPTwDCJEem1ga-CaPpYfQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_6NPTwTCJEem1ga-CaPpYfQ" width="2216" height="1322"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_6NRI8DCJEem1ga-CaPpYfQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_6NSXEDCJEem1ga-CaPpYfQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_6NS-IDCJEem1ga-CaPpYfQ" type="Parent"/>
+          <children xmi:type="notation:ListCompartment" xmi:id="_6NUMQDCJEem1ga-CaPpYfQ" visible="false" type="Extension_Points"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6Mg7ATCJEem1ga-CaPpYfQ" x="9551" y="-265"/>
+        </children>
         <element xsi:nil="true"/>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_1r6doASXEemYlrkzCHEp8A" element="_1reYwASXEemYlrkzCHEp8A" source="_EH0nMASQEemYlrkzCHEp8A" target="_IZyysASQEemYlrkzCHEp8A" fontName="Arial" fontHeight="10" lineColor="3342489" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_1sDnkASXEemYlrkzCHEp8A" type="NameLabel">
@@ -66,6 +76,15 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_1sH5AQSXEemYlrkzCHEp8A" y="1058"/>
           </children>
           <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1r6doQSXEemYlrkzCHEp8A" points="[44, -8, -326, 59]$[320, -63, -50, 4]"/>
+        </edges>
+        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8-QC0DCJEem1ga-CaPpYfQ" element="_89kGUDCJEem1ga-CaPpYfQ" source="_6Mg7ADCJEem1ga-CaPpYfQ" target="_IZyysASQEemYlrkzCHEp8A" fontName="Segoe UI" fontHeight="8" lineColor="3342489" lineWidth="1" showStereotype="Text">
+          <children xmi:type="notation:DecorationNode" xmi:id="_8-jk0DCJEem1ga-CaPpYfQ" type="KindLabel">
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_8_AQwDCJEem1ga-CaPpYfQ" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_8_CtADCJEem1ga-CaPpYfQ" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_8_Be4DCJEem1ga-CaPpYfQ" type="Name"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8-jk0TCJEem1ga-CaPpYfQ" x="-101" y="-919"/>
+          </children>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8-QC0TCJEem1ga-CaPpYfQ" points="[-19, 8, 86, -42]$[-105, 31, 0, -19]"/>
         </edges>
       </contents>
     </eAnnotations>
@@ -167,18 +186,19 @@
         </contents>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_EFRCcASQEemYlrkzCHEp8A" name="บุคคลทั่วไป">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_EFRCcASQEemYlrkzCHEp8A" name="ผู้ใช้งานระบบ">
       <ownedComment xmi:id="_AFayoASZEemYlrkzCHEp8A" annotatedElement="_EFRCcASQEemYlrkzCHEp8A">
         <body>&lt;p>&lt;span style=&quot;font-family:TH Sarabun New;&quot;>&lt;/span>&lt;/p></body>
       </ownedComment>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_IZrd8ASQEemYlrkzCHEp8A" name="สมัครสมาชิกคนรีวิวร้านอาหาร">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_IZrd8ASQEemYlrkzCHEp8A" name="เข้าสู้ระบบในฐานะผู้ใช้งานระบบ">
       <eAnnotations xmi:id="_Vm17cASTEemYlrkzCHEp8A" source="uml2.diagrams">
         <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Vm2igASTEemYlrkzCHEp8A" type="Usecase" name="UsecaseDiagram1">
           <element xsi:nil="true"/>
         </contents>
       </eAnnotations>
       <extend xmi:id="_qKGkIASTEemYlrkzCHEp8A" extendedCase="_eCSdwASTEemYlrkzCHEp8A" extensionLocation="_qKatMASTEemYlrkzCHEp8A"/>
+      <extensionPoint xmi:id="_897SsDCJEem1ga-CaPpYfQ" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_eCSdwASTEemYlrkzCHEp8A" name="เข้าสู่ระบบในฐานะผู้ใช้งานระบบ">
       <extensionPoint xmi:id="_qKatMASTEemYlrkzCHEp8A" name="ExtensionPoint1"/>
@@ -202,6 +222,9 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1rsbMASXEemYlrkzCHEp8A" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_1rr0IASXEemYlrkzCHEp8A" value="1"/>
       </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6IuAIDCJEem1ga-CaPpYfQ" name="ริวีวอาหาร">
+      <extend xmi:id="_89kGUDCJEem1ga-CaPpYfQ" extendedCase="_IZrd8ASQEemYlrkzCHEp8A" extensionLocation="_897SsDCJEem1ga-CaPpYfQ"/>
     </packagedElement>
     <profileApplication xmi:id="_8PfZWASPEemYlrkzCHEp8A">
       <eAnnotations xmi:id="_8PfZWQSPEemYlrkzCHEp8A" source="http://www.eclipse.org/uml2/2.0.0/UML">

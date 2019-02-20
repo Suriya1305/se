@@ -5320,3 +5320,80 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 
 !ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-10 06:56:36.498
 !MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+!SESSION 2019-02-15 01:50:19.328 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.ui 4 4 2019-02-15 01:50:36.377
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-02-15 01:51:06.255
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-02-15 01:51:06.255
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-02-15 01:51:06.255
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-02-15 01:51:06.255
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-02-15 01:51:06.255
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-02-15 01:51:06.256
+!MESSAGE Unable to restore perspective: Workspace - Modeling.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-02-15 01:51:06.256
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-02-15 01:51:06.256
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-02-15 01:51:06.256
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-02-15 01:51:06.256
+!MESSAGE OK
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:07.741
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:07.912
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:08.191
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:09.072
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:09.183
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-02-15 01:51:10.286
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:51:17.327
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 01:52:54.578
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 02:14:08.881
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 02:14:10.031
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
