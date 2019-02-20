@@ -5397,6 +5397,7 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 
 !ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-15 02:14:10.031
 !MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+<<<<<<< HEAD
 
 !ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:55:48.164
 !MESSAGE LUM license expired for productID 45: Past the expiration date on license.
@@ -5420,3 +5421,41 @@ java.io.FileNotFoundException: C:\cygwin\home\User\se\RSA\.metadata\.plugins\org
 	at org.eclipse.core.internal.resources.Workspace.save(Unknown Source)
 	at org.eclipse.ui.internal.ide.application.IDEWorkbenchAdvisor$5.run(Unknown Source)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+=======
+!SESSION 2019-02-20 20:32:15.823 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:17.848
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:17.970
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:18.030
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:18.235
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:18.555
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-02-20 20:34:19.374
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:34:23.930
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:38:01.162
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:39:27.853
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+>>>>>>> alter I
