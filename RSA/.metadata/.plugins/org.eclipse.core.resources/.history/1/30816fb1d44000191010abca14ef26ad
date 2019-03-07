@@ -382,7 +382,7 @@
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_4TnO0EDTEemY1pXFI9TZlw" type="FromMultiplicityLabel" element="_4TXXMEDTEemY1pXFI9TZlw">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_4TnO0kDTEemY1pXFI9TZlw" type="FromMultiplicity"/>
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_4TnO0UDTEemY1pXFI9TZlw" x="-948" y="-475"/>
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_4TnO0UDTEemY1pXFI9TZlw" y="396"/>
           </children>
           <children xmi:type="notation:DecorationNode" xmi:id="_4Tn14EDTEemY1pXFI9TZlw" type="FromRoleLabel" element="_4TXXMEDTEemY1pXFI9TZlw">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_4Tn14kDTEemY1pXFI9TZlw" type="FromRole"/>
@@ -404,7 +404,7 @@
             <children xmi:type="notation:ListCompartment" xmi:id="_4TprEUDTEemY1pXFI9TZlw" type="FromConstraintCompartment"/>
             <layoutConstraint xmi:type="notation:Location" xmi:id="_4TprEEDTEemY1pXFI9TZlw" y="1058"/>
           </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4TkykUDTEemY1pXFI9TZlw" points="[-2353, 720, 10242, -3138]$[-12441, 3811, 154, -47]"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4TkykUDTEemY1pXFI9TZlw" points="[-2353, 850, 10242, -3656]$[-10931, 3952, 1664, -554]$[-12441, 4455, 154, -51]"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_gA6DcEDUEemY1pXFI9TZlw" id="(0.9601421680629602,0.5102010424422934)"/>
         </edges>
       </contents>
@@ -559,6 +559,9 @@
       <ownedAttribute xmi:id="_CRl2cB9MEemmjLUiC3U3dg" name="name" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_EKRPUB9MEemmjLUiC3U3dg" name="prefixid" visibility="private" type="_W1UOoR9LEemmjLUiC3U3dg"/>
+      <ownedAttribute xmi:id="_KCe_4B9MEemmjLUiC3U3dg" name="sexid" visibility="private" type="_W1UOoR9LEemmjLUiC3U3dg"/>
+      <ownedAttribute xmi:id="_QMoN8B9MEemmjLUiC3U3dg" name="contactid" visibility="private" type="_W1UOoR9LEemmjLUiC3U3dg"/>
       <ownedAttribute xmi:id="_MvfJ8B9SEemmjLUiC3U3dg" name="registerController" visibility="private" type="_oeUXkB9JEemmjLUiC3U3dg" association="_MvVY8B9SEemmjLUiC3U3dg">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MvhmMB9SEemmjLUiC3U3dg" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Mvg_IB9SEemmjLUiC3U3dg" value="1"/>
@@ -586,6 +589,10 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BW-JUCzWEemZn6iVbAmS6A" value="*"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BW9iQCzWEemZn6iVbAmS6A"/>
         <association href="platform:/resource/commu/Blank%20Design%20Package.emx#_BWyjICzWEemZn6iVbAmS6A?Blank%20Design%20Package/%3CAssociation%3E?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4TaagEDTEemY1pXFI9TZlw" name="contactentity" visibility="private" type="_g-gXEB9JEemmjLUiC3U3dg" aggregation="composite" association="_4TViAEDTEemY1pXFI9TZlw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4TbooEDTEemY1pXFI9TZlw" value="1"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4TbBkEDTEemY1pXFI9TZlw" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_lh73QB9PEemmjLUiC3U3dg" name="setEmail"/>
       <ownedOperation xmi:id="_puwdAB9PEemmjLUiC3U3dg" name="setName"/>
@@ -665,10 +672,6 @@
       <ownedEnd xmi:id="_4TXXMEDTEemY1pXFI9TZlw" name="profilesEntity" visibility="private" type="_kpMgIB9JEemmjLUiC3U3dg" association="_4TViAEDTEemY1pXFI9TZlw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4TX-QUDTEemY1pXFI9TZlw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4TX-QEDTEemY1pXFI9TZlw" value="1"/>
-      </ownedEnd>
-      <ownedEnd xmi:id="_4TaagEDTEemY1pXFI9TZlw" name="contactentity" visibility="private" type="_g-gXEB9JEemmjLUiC3U3dg" aggregation="composite" association="_4TViAEDTEemY1pXFI9TZlw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4TbooEDTEemY1pXFI9TZlw" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4TbBkEDTEemY1pXFI9TZlw" value="1"/>
       </ownedEnd>
     </packagedElement>
     <profileApplication xmi:id="_I756AB9JEemmjLUiC3U3dg">

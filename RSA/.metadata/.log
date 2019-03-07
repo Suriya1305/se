@@ -5459,3 +5459,134 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational
 !ENTRY com.ibm.cic.licensing.common.util 4 0 2019-02-20 20:39:27.853
 !MESSAGE LUM license expired for productID 47: Past the expiration date on license.
 >>>>>>> alter I
+!SESSION 2019-03-07 19:13:26.306 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.6.0 IBM J9 2.4 Windows 7 x86-32 jvmwi3260sr9-20110324_78506 (JIT enabled, AOT enabled)
+J9VM - 20110324_078506
+JIT  - r9_20101028_17488ifx3
+GC   - 20101027_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v80.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v80.ide
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-03-07 19:15:06.882
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 0 2019-03-07 19:15:16.000
+!MESSAGE While loading class "org.eclipse.core.internal.resources.Rules", thread "Thread[Worker-0,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "org.eclipse.core.resources_3.6.1.R36x_v20110131-1630 [2250]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.eclipse.core.internal.resources.Rules" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:../SDPShared/plugins/org.eclipse.core.resources_3.6.1.R36x_v20110131-1630.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.getRuleFactory(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Unknown Source)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 18 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(Unknown Source)
+	at org.eclipse.osgi.framework.util.SecureAction.start(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(Unknown Source)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(Unknown Source)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.getRuleFactory(Unknown Source)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Unknown Source)
+	at org.eclipse.core.internal.refresh.RefreshJob.runInWorkspace(Unknown Source)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.ui 4 4 2019-03-07 19:15:38.330
+!MESSAGE Could not create view: 'org.eclipse.ui.internal.introview'.
+
+!ENTRY org.eclipse.ui 4 0 2019-03-07 19:16:25.493
+!MESSAGE Problems occurred restoring workbench.
+!SUBENTRY 1 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 1 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.ui 4 0 2019-03-07 19:16:25.493
+!MESSAGE Unable to restore perspective: Workspace - Modeling.
+!SUBENTRY 2 org.eclipse.ui 0 0 2019-03-07 19:16:25.493
+!MESSAGE Problems occurred restoring perspective.
+!SUBENTRY 3 org.eclipse.ui 0 0 2019-03-07 19:16:25.493
+!MESSAGE 
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.ui 4 0 2019-03-07 19:16:25.493
+!MESSAGE Could not find view: org.eclipse.ui.internal.introview
+!SUBENTRY 1 unknown 0 0 2019-03-07 19:16:25.493
+!MESSAGE OK
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:27.506
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:27.681
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:27.762
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:27.889
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:28.148
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:16:28.352
+!MESSAGE LUM license expired for productID 44: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2019-03-07 19:16:29.460
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:18:06.825
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:27:53.118
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:29:43.837
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:29:45.088
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2019-03-07 19:29:46.130
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.

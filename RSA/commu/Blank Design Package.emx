@@ -1091,9 +1091,6 @@
       <ownedAttribute xmi:id="_F_Pm4CzUEemZn6iVbAmS6A" name="review" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:id="_HnIxwCzUEemZn6iVbAmS6A" name="pointfoodid" visibility="private" type="_YjAlYCzGEemZn6iVbAmS6A"/>
-      <ownedAttribute xmi:id="_OyC5QCzUEemZn6iVbAmS6A" name="restaurantid" visibility="private" type="_YjAlYCzGEemZn6iVbAmS6A"/>
-      <ownedAttribute xmi:id="_RmldcCzUEemZn6iVbAmS6A" name="Profilesid" visibility="private" type="_YjAlYCzGEemZn6iVbAmS6A"/>
       <ownedAttribute xmi:id="_46-0cCzVEemZn6iVbAmS6A" name="reviewFoodContoller" visibility="private" type="_H9wskCzVEemZn6iVbAmS6A" association="_460cYCzVEemZn6iVbAmS6A">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_47ApoCzVEemZn6iVbAmS6A" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_47ACkCzVEemZn6iVbAmS6A" value="1"/>

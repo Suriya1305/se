@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="164" version="2.0">
+<workbench progressCount="111" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="100" y="0">
 <fastViewData fastViewLocation="1024">
@@ -43,12 +43,19 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Blank Design Package.emx" partName="Blank Design Package.emx" path="C:/cygwin/home/User/se/RSA/class/Blank Design Package.emx" title="Blank Design Package.emx" tooltip="class/Blank Design Package.emx" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/class/Blank Design Package.emx"/>
+</editor>
 </editors>
 <views>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
@@ -126,6 +133,7 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="com.ibm.xtools.rmp.ui.diagram.layers.LayersView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
 <fastViews>
 <view id="com.ibm.ccl.erf.ui.views.reportexplorer" ratio="0.25"/>
 <view id="com.ibm.xtools.mde.guidance" ratio="0.3"/>
@@ -156,10 +164,12 @@
 </folder>
 </info>
 <info part="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer" ratio="0.26" ratioLeft="260" ratioRight="740" relationship="2" relative="projectExplorerArea"/>
-<info folder="true" part="underEditorArea" ratio="0.72711265" ratioLeft="413" ratioRight="155" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<info folder="true" part="underEditorArea" ratio="0.9066901" ratioLeft="515" ratioRight="53" relationship="4" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="185" ratioRight="555" relationship="2" relative="com.ibm.xtools.reqpro.ui.internal.views.explorer.RequirementExplorer"/>
@@ -192,7 +202,6 @@
 </trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@13601360"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -201,11 +210,13 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="underEditorArea"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Blank Design Package.emx" tooltip="class/Blank Design Package.emx">
+<persistable path="/class/Blank Design Package.emx"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Blank Design Package.emx" tooltip="commu/Blank Design Package.emx">
 <persistable path="/commu/Blank Design Package.emx"/>
 </file>
@@ -214,9 +225,6 @@
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="makefood-Use-Case-Package.emx" tooltip="C:\Users\User\Desktop\New folder\makefood-Use-Case-Package.emx">
 <persistable uri="file:/C:/Users/User/Desktop/New%20folder/makefood-Use-Case-Package.emx"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Blank Design Package.emx" tooltip="class/Blank Design Package.emx">
-<persistable path="/class/Blank Design Package.emx"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.xtools.modeler.ui.editors.internal.ModelEditor" name="Blank Analysis Model.emx" tooltip="Activity Diagram/Blank Analysis Model.emx">
 <persistable path="/Activity Diagram/Blank Analysis Model.emx"/>
